@@ -1,0 +1,1 @@
+Zore markalı telefon ve tablet aksesuar ürünlerini n11,hepsiburada,trendyol,çiçeksepeti ve tekkart pazaryerlerinde satış yapan şirketlerin toplu bir şekilde ürün yüklemesini ve stok takip etmesi için geliştirdiğim masaüstü uygulaması.
