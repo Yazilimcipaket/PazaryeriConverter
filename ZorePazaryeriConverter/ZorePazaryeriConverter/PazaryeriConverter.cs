@@ -146,21 +146,21 @@ namespace ZorePazaryeriConverter
         {
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri("http://zoreaksesuar.com/xml/");
+                client.BaseAddress = new Uri("http://*******************");
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage Response = client.GetAsync(string.Format("?R=8686&K=0e27&Imgs=1&AltUrun=1&start={0}&limit={1}", altlimit, ustlimit)).Result;
+                HttpResponseMessage Response = client.GetAsync(string.Format("?*************AltUrun=1&start={0}&limit={1}", altlimit, ustlimit)).Result;
                 return Response;
             }
         }
         public HttpResponseMessage GetJson()
         {
-            /*46.221.56.226:6060/api/values/0& &1&1&200000&2018-01-01&2021-05-31*/
+            
             using (var client = new HttpClient())
             {
                 client.Timeout = TimeSpan.FromMinutes(5);
-                client.BaseAddress = new Uri("http://46.221.56.226:6060/api/");
+                client.BaseAddress = new Uri("http://************");
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage Response = client.GetAsync("values/0& &1&1&200000&2018-01-01&2021-05-31").Result;
+                HttpResponseMessage Response = client.GetAsync("***************&200000&2018-01-01&2021-05-31").Result;
                 return Response;
             }
         }
